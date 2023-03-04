@@ -1,2 +1,11 @@
-# flutter_architecture
-Homework for the SkillBox course
+<h4 align="center">Репозиторий для взаимодействия и контроля промежуточных результатов</h4>
+<h1 align="center">Dart/Flutter-project</h1> 
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=flutter_architecture)](https://git.io/typing-svg)
+
+<h3 align="center">Описание задачи:</h3>
+
+1.Создайте пустой проект, используя принципы Clean Architecture.
+2.Создайте фейковый сервис на сервисном слое, зарегистрируйте его в сервис-локаторе (например, GetIt, но необязательно) и получите его на бизнес-слое через локатор.
+3.Подключите Freezed и создайте доменную модель с помощью этой библиотеки.
+4.Настройте статический анализатор, подключите dart_code_metrics, проведите анализ и соберите метрики с собственного кода.
