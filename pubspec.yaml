@@ -32,6 +32,10 @@ dependencies:
     sdk: flutter
   get_it: ^7.2.0
   freezed: ^2.3.2
+  data:
+     path: lib/packages/data
+  services:  
+    path: lib/packages/services
 
 
 

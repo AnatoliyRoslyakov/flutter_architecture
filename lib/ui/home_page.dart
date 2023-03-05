@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:skillbox9/services/services_provider.dart';
+import 'package:services/services_provider.dart';
 
 import '../main.dart';
+import '../packages/services/lib/services.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key, required this.title});
@@ -26,7 +27,7 @@ class _HomePageState extends State<HomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter = getIt<ServicesProvider>().getRandomInt();
+      _counter = getIt<ServicesProvider>().initialize();
     });
   }
 
