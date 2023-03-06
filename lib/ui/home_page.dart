@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:services/services_provider.dart';
+
 
 import '../main.dart';
 import '../packages/services/lib/services.dart';
@@ -27,7 +27,8 @@ class _HomePageState extends State<HomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter = getIt<ServicesProvider>().initialize();
+      
+      _counter = getIt<Services>().getRandomInt();
     });
   }
 

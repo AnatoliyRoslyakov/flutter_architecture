@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:skillbox9/packages/services/lib/services_provider.dart';
+
 
 import 'my_app.dart';
+import 'packages/services/lib/services.dart';
 
 final getIt = GetIt.instance;
 void main() {
-  getIt.registerSingleton<ServicesProvider>(ServicesProvider());
+  getIt.registerSingleton<Services>(Services());
   runApp(const MyApp());
 }
